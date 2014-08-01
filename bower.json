@@ -1,0 +1,23 @@
+{
+  "name": "CoffeeApp",
+  "version": "0.0.0",
+  "authors": [
+    "Josef Engelfrost <josef.engelfrost@josf.se>"
+  ],
+  "description": "CoffeeApp",
+  "main": "index.html",
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.5",
+    "ember-data": "~1.0.0-beta.4",
+    "ember-localstorage-adapter": "~0.3.2"
+  }
+}

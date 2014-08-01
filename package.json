@@ -1,0 +1,22 @@
+{
+  "name": "CoffeeApp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "CoffeeApp",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Josef Engelfrost",
+  "license": "None",
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "browser-sync": "~1.3.0"
+  },
+  "dependencies": {
+    "bower": "~1.3.8"
+  }
+}

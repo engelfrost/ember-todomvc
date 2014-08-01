@@ -1,11 +1,12 @@
-App = Ember.Application.create();
+Todos = Ember.Application.create();
 
-App.Router.map(function() {
-  // put your routes here
+Todos.ApplicationAdapter = DS.LSAdapter.extend({
+	namespace: 'todos-emberjs'
 });
 
-App.IndexRoute = Ember.Route.extend({
-  model: function() {
-    return ['red', 'yellow', 'blue'];
-  }
-});
+
+// Todos.IndexRoute = Ember.Route.extend({
+//   model: function() {
+//     return ['red', 'yellow', 'blue'];
+//   }
+// });
